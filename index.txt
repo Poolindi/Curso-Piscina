@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Piscina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Curso de Piscina</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Aprenda a cuidar de piscinas como um profissional!</h2>
+    <p>Curso completo para manutenção, limpeza e tratamento de piscinas.</p>
+    <a href="#cursos" class="btn">Ver Cursos</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre o Curso</h2>
+    <p>Somos especialistas em capacitar profissionais para atuar no ramo de limpeza e manutenção de piscinas. Nosso curso é prático, acessível e com certificação.</p>
+  </section>
+
+  <section id="cursos">
+    <h2>Nossos Cursos</h2>
+    <div class="curso">
+      <h3>Curso Básico</h3>
+      <p>Introdução à limpeza e cuidados com piscinas. Ideal para iniciantes.</p>
+    </div>
+    <div class="curso">
+      <h3>Curso Profissional</h3>
+      <p>Manutenção avançada, uso de produtos químicos, bombas e filtragem.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form id="form-contato">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagem-sucesso" style="display:none;">Mensagem enviada com sucesso!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Curso de Piscina. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
